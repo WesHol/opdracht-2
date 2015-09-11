@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Project bescrijving</legend>
+			Project titel<br>
+			<input type="text" name="Titel" ><br>
+			Opdracht omschrijving<br>
+			<textarea rows="4" cols="40" name="Opdracht omschrijving"></textarea><br>
+			Doelgroep omschrijving<br>
+			<textarea rows="4" cols="40" name="Doelgroepoms"></textarea><br>
+			Doelstelling<br>
+			<textarea rows="4" cols="40" name="Doelstelling"></textarea><br>
+			Looptijd<br>
+			<input type="text" maxlength="2" size="2" name="Looptijd">Weken<br>
+			Deadline<br>
+			<input type="date" name="Deadline" ><br>
+		</fieldset>
+		<fieldset>
+			<legend>Geschikt voor</legend>
+				<select>
+					<option>Eerstejaars studenten</option>
+					<option>Tweedejaars studenten</option>
+					<option>Derdejaars studenten</option>
+					<option>Afstudeer studenten</option>
+					<option>Onbekend</option>
+				</select>
+		</fieldset>
+		<fieldset>
+			<legend>Opmerkingen</legend>
+			<textarea rows="4" cols="40" name="opmerkingen">Uw opmerkingen hier...</textarea>
+		</fieldset>
+		<input type="button" name="submit" value="submit">
+	</form>
+</body>
+</html>
